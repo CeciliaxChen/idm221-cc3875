@@ -6,6 +6,13 @@ From my freshman year being in the midst of a world-wide pandemic, the time I ha
 Some small aspects about me are that noteworthy is that I animated cartoons, animated series on most platforms, I considering watching k-dramas and anime as hobbies, and so many more fun facts. I am very clumsy but also I love to play volleyball. I have cat-eared shaped nostrils and I have been embarrassed about it my entire life. 
 
 
+## Contact Information 
+Professional Email: ceciliachen18@gmail.com  
+Email: cc3875@drexel.edu  
+GitHub: https://github.com/CeciliaxChen  
+Domain: ceciliaxchen.com  
+
+
 ## Resume
 ### Summary
  Extensive involvement and experience in working with people of all ages, has an interest in UIUX design, graphic design, psychology, marketing, and communication with people 
@@ -75,10 +82,3 @@ Drexel University's Global China Connections - Graphic Designer E-board Member
 Seal of Biliteracy for Spanish Language 
 2020  
  - performs proficiently on exam taken in high school 
-
-
-## Contact Information 
-Professional Email: ceciliachen18@gmail.com  
-Email: cc3875@drexel.edu  
-GitHub: https://github.com/CeciliaxChen  
-Domain: ceciliaxchen.com  
