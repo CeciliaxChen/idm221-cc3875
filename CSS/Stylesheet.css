@@ -1,6 +1,90 @@
-body {
-    margin: 0;
-  }
-header { 
-    background-color: rgb(160, 185, 255);
+* {
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+  text-decoration: none; 
 }
+
+@font-face {
+  font-family: 'chi-jyun'; 
+  src: url(chi_jyun/ÇøÇÕÇ‚èÉ.ttf);
+}
+
+  header { 
+    background-color: #ffffff;
+}
+
+.navigation {  
+  background-color: #ffffff; 
+  font-size: 1.5rem;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  font-family: 'chi-jyun', Georgia, 'Times New Roman', Times, serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  padding: .5rem; 
+}
+
+.navigation .menu li {
+  list-style: none; 
+  display: inline-block; 
+  transition: color .2s ease; 
+  margin-top: 2 rem; 
+}
+
+.navigation .menu li a {
+  color: rgb(160, 185, 255);
+}
+
+.navigation .menu li a:hover {
+  color: rgb(29, 47, 97);
+}
+
+.navigation .max-width {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.max-width {
+  margin: auto;
+  padding: 0 1.5rem; 
+  max-width: fit-content; 
+}
+
+.logo {
+  float: left;
+}
+
+body {
+  margin: 0;
+  font-family: 'chi-jyun', Georgia, 'Times New Roman', Times, serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+.resume {
+  max-width: 100%; 
+  width: 85%; 
+  display: block; 
+  height: auto; 
+  margin: 1.5rem auto; 
+  margin-top: 6rem; 
+}
+
+
+
+
+/* 
+color: #d0826f 
+color: rgb(160, 185, 255)
+color: rgb(29, 47, 97)
+color: #e6e6ed 
+color: #fff
+color: #000
+
+
+Set the width to 100% 
+Set the height to auto 
+
+mpeg 
+H.264 
+
+*/ 
