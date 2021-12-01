@@ -1,38 +1,45 @@
-* {
+/* * {
   margin: 0; 
   padding: 0; 
   box-sizing: border-box; 
   text-decoration: none; 
-}
+}*/
 
 @font-face {
-  font-family: 'chi-jyun'; 
-  src: url(chi_jyun/ÇøÇÕÇ‚èÉ.ttf);
+  font-family: 'chihaya-jyun';
+  src: url('chi_jyun/chihaya_jyun.woff2'); /*format('woff2'); */
 }
 
   header { 
     background-color: #ffffff;
 }
+p{
+  font-family: chihaya-jyun;
+}
 
 .navigation {  
   background-color: #ffffff; 
+  display: flex;
+  justify-content: center;
   font-size: 1.5rem;
   position: fixed; 
   top: 0; 
   width: 100%; 
-  font-family: 'chi-jyun', Georgia, 'Times New Roman', Times, serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-  padding: .5rem; 
+  font-family: chihaya-jyun; /* Georgia, 'Times New Roman', Times, serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  padding: 0.5rem; 
 }
 
 .navigation .menu li {
   list-style: none; 
   display: inline-block; 
   transition: color .2s ease; 
-  margin-top: 2 rem; 
+  margin-top: .5rem; 
 }
 
 .navigation .menu li a {
   color: rgb(160, 185, 255);
+  padding: 2rem;
+  text-decoration: none; 
 }
 
 .navigation .menu li a:hover {
@@ -57,7 +64,7 @@
 
 body {
   margin: 0;
-  font-family: 'chi-jyun', Georgia, 'Times New Roman', Times, serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  font-family: chihaya_jyun; /*Georgia, 'Times New Roman', Times, serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 }
 
 .resume {
