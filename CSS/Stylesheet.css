@@ -13,7 +13,7 @@
   font-family: 'baloo_bhaijaan_2';
   font-style: normal;
   font-weight: normal;
-  src: url('../baloo_bhaijaan_2/baloobhaijaan2-variablefont_wght.ttf') format('truetype'); 
+  src: url('../baloo_bhaijaan_2/baloobhaijaan2-variablefont_wght.ttf') format('truetype');
 }
 
 header { 
@@ -27,43 +27,43 @@ header .navigation .ul {
 .logo {
   float: left;
   margin-left: 0;
+  max-width: 100%;
   padding: 0;
-  max-width: 20%;
-  width: 20%;
+  width: 100%;
 }
 
-.navigation {  
-  background-color: #ffffff;
-  display: flex;
-  justify-content: center; 
-  font-size: 1.25rem;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-  font-family: 'baloo_bhaijaan_2'; 
-  /*padding: .5rem;*/
-}
+.navigation {
+     background-color: #ffffff;
+     display: flex;
+     font-family: 'baloo_bhaijaan_2';
+     font-size: 1.25rem;
+     height: auto;
+     justify-content: center;
+     left: 0;
+     position: fixed;
+     top: 1rem;
+     width: 100%;
+   }
 
 .navigation .menu li {
-  list-style: none;
   display: inline-block;
-  justify-content: center;
-  transition: color .2s ease;
-  margin-top: 1rem;
   font-size: 1.25rem;
+  justify-content: center;
+  list-style: none;
+  margin-top: 1rem;
   padding: 0;
+  transition: color .2s ease;
 }
 
 ul.menu {
-  padding: 0;
+  font-size: .75rem;
+  padding: .5rem;
 }
 
 .navigation .menu li a {
   color: rgb(160, 185, 255);
-  padding: 1rem; 
-  text-decoration: none; 
+  padding: .5rem;
+  text-decoration: none;
 }
 
 .navigation .menu li a:active {
@@ -72,27 +72,30 @@ ul.menu {
 
 .navigation .max-width {
   display: flex;
-  text-align: center;
   justify-content: space-between;
+  text-align: center;
 }
 
 .max-width {
   margin: auto;
-  padding: 0 1rem; 
-  max-width: fit-content; 
+  max-width: fit-content;
+  padding: 0 1rem;
 }
 
 body {
-  padding: 8rem 2rem;
-  margin: 0;
-  font-family: 'baloo_bhaijaan_2'; 
+  font-family: 'baloo_bhaijaan_2';
   font-size: 1rem;
   line-height: 1.25rem;
+  margin: 0;
+  padding: 8rem 2rem;
 }
 
 .hello {
-  font-size: 2rem;
+  color: #d0826f;
   font-family: 'baloo_bhaijaan_2';
+  font-size: 1rem, 0;
+  margin-top: 0;
+  padding: 0;
 }
 
 img {
@@ -106,44 +109,49 @@ img.project1 {
 
 
 .project1, .project2, .project3, .project4, .project5, .project6, .project7, .project8 {
-  max-width: 100%; 
-  width: 100%; 
-  display: block; 
-  height: auto; 
-  margin: .5rem auto; 
-  margin-top: 2rem; 
+  display: block;
+  height: auto;
+  margin-top: 2rem;
+  margin: .5rem auto;
+  max-width: 100%;
+  width: 80%;
 }
 
 
 .one, .two, .three, .four, .five, .six, .seven, .eight {
-  padding: 0;
   margin: .5rem;
+  padding: 0;
 }
 
 figcaption {
+  color: #d0826f;
   padding: 1.5rem;
   text-align: center;
 }
 
+.about {
+  color: #d0826f;
+}
 
 .resume {
-  max-width: 100%; 
-  width: 85%; 
-  display: block; 
-  height: auto; 
-  margin: 1.5rem auto; 
-  margin-top: 6rem; 
+  display: block;
+  height: auto;
+  margin-top: 6rem;
+  margin: 1.5rem auto;
+  max-width: 100%;
+  width: 85%;
 }
 
 .resume-name { 
+  color: #d0826f;
   text-align: center;
   font-size: 2rem;
 }
 
 
 .background, .going-deeper-part-1, .going-deeper-part-2 {
-  text-indent: 30px;
   line-height: 1.25rem;
+  text-indent: 30px;
 }
 
 
@@ -157,12 +165,9 @@ color: #fff
 color: #000
 
 
-Set the width to 100% 
-Set the height to auto 
-
 mpeg 
 H.264 
 
-375 x 667 
+iPhone 8 viewport = 375 x 667 
 
 */ 
