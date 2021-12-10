@@ -4,6 +4,10 @@
   box-sizing: border-box; 
 }*/
 
+* { 
+  box-sizing: border-box;
+}
+
 @font-face {
   font-display: swap;
   font-family: 'baloo_bhaijaan_2';
@@ -16,11 +20,15 @@ header {
     background-color: #ffffff;
 }
 
+header .navigation .ul { 
+  padding: 0;
+}
+
 .logo {
   float: left;
   margin-left: 0;
-  padding: .5rem;
-  max-width: 667px;
+  padding: 0;
+  max-width: 20%;
   width: 20%;
 }
 
@@ -28,15 +36,14 @@ header {
   background-color: #ffffff;
   display: flex;
   justify-content: center; 
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: auto;
   font-family: 'baloo_bhaijaan_2'; 
-  font-size: 1.5rem;
-  padding: .5rem;
+  /*padding: .5rem;*/
 }
 
 .navigation .menu li {
@@ -46,11 +53,16 @@ header {
   transition: color .2s ease;
   margin-top: 1rem;
   font-size: 1.25rem;
+  padding: 0;
+}
+
+ul.menu {
+  padding: 0;
 }
 
 .navigation .menu li a {
   color: rgb(160, 185, 255);
-  padding: 1rem;
+  padding: 1rem; 
   text-decoration: none; 
 }
 
@@ -71,16 +83,48 @@ header {
 }
 
 body {
-  padding: 8rem 4rem;
+  padding: 8rem 2rem;
   margin: 0;
   font-family: 'baloo_bhaijaan_2'; 
   font-size: 1rem;
-  line-height: 1rem;
+  line-height: 1.25rem;
 }
 
 .hello {
   font-size: 2rem;
+  font-family: 'baloo_bhaijaan_2';
 }
+
+img {
+  border-radius: .5rem;
+}
+
+img.project1 {
+  margin: 1rem, .2rem, .2rem;
+}
+
+
+
+.project1, .project2, .project3, .project4, .project5, .project6, .project7, .project8 {
+  max-width: 100%; 
+  width: 100%; 
+  display: block; 
+  height: auto; 
+  margin: .5rem auto; 
+  margin-top: 2rem; 
+}
+
+
+.one, .two, .three, .four, .five, .six, .seven, .eight {
+  padding: 0;
+  margin: .5rem;
+}
+
+figcaption {
+  padding: 1.5rem;
+  text-align: center;
+}
+
 
 .resume {
   max-width: 100%; 
