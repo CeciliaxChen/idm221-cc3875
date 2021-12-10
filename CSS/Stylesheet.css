@@ -5,47 +5,64 @@
 }*/
 
 @font-face {
-  font-family: 'chihaya_jyun';
-  src: url('../chi_jyun/chihaya_jyun.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
   font-display: swap;
+  font-family: 'eb_garamond';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../eb_garamond/ebgaramond-variablefont_wght.ttf') format('truetype'); 
 }
 
-  header { 
+@font-face {
+  font-display: swap;
+  font-family: 'noto_sans';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../noto_sans/notosans-regular.ttf') format('truetype');
+}
+
+
+header { 
     background-color: #ffffff;
 }
 
 .logo {
   float: left;
+  margin-left: 0;
+  padding: .5rem;
+  max-width: 667px;
+  width: 20%;
 }
 
 .navigation {  
   background-color: #ffffff;
   display: flex;
-  justify-content: center;
-  font-size: 2.5rem;
+  justify-content: center; 
+  font-size: 1.5rem;
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
-  font-family: 'chihaya_jyun', Georgia, 'Times New Roman', Times, serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-  padding: 0.5rem;
+  height: auto;
+  font-family: 'eb_garamond', Georgia, 'Times New Roman', Times, serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  font-size: 1.5rem;
+  padding: .5rem;
 }
 
 .navigation .menu li {
-  list-style: none; 
-  display: inline-block; 
-  transition: color .2s ease; 
-  margin-top: .5rem; 
+  list-style: none;
+  display: inline-block;
+  justify-content: center;
+  transition: color .2s ease;
+  margin-top: .5rem;
 }
 
 .navigation .menu li a {
   color: rgb(160, 185, 255);
-  padding: 2rem;
+  padding: 1rem;
   text-decoration: none; 
 }
 
-.navigation .menu li a:hover {
+.navigation .menu li a:active {
   color: rgb(29, 47, 97);
 }
 
@@ -57,14 +74,14 @@
 
 .max-width {
   margin: auto;
-  padding: 0 1.5rem; 
+  padding: 0 1rem; 
   max-width: fit-content; 
 }
 
 body {
-  padding: 8rem;
+  padding: 8rem 4rem;
   margin: 0;
-  font-family: 'chihaya_jyun', Georgia, 'Times New Roman', Times, serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  font-family: 'noto_sans', Georgia, 'Times New Roman', Times, serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
   font-size: 1rem;
   line-height: 1rem;
 }
@@ -82,6 +99,16 @@ body {
   margin-top: 6rem; 
 }
 
+.resume-name { 
+  text-align: center;
+  font-size: 2rem;
+}
+
+
+.background, .going-deeper-part-1, .going-deeper-part-2 {
+  text-indent: 30px;
+  line-height: 1.25rem;
+}
 
 
 
