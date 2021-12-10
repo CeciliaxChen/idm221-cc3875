@@ -6,20 +6,11 @@
 
 @font-face {
   font-display: swap;
-  font-family: 'eb_garamond';
+  font-family: 'baloo_bhaijaan_2';
   font-style: normal;
   font-weight: normal;
-  src: url('../eb_garamond/ebgaramond-variablefont_wght.ttf') format('truetype'); 
+  src: url('../baloo_bhaijaan_2/baloobhaijaan2-variablefont_wght.ttf') format('truetype'); 
 }
-
-@font-face {
-  font-display: swap;
-  font-family: 'noto_sans';
-  font-style: normal;
-  font-weight: normal;
-  src: url('../noto_sans/notosans-regular.ttf') format('truetype');
-}
-
 
 header { 
     background-color: #ffffff;
@@ -43,7 +34,7 @@ header {
   left: 0;
   width: 100%;
   height: auto;
-  font-family: 'eb_garamond', Georgia, 'Times New Roman', Times, serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  font-family: 'baloo_bhaijaan_2'; 
   font-size: 1.5rem;
   padding: .5rem;
 }
@@ -53,7 +44,8 @@ header {
   display: inline-block;
   justify-content: center;
   transition: color .2s ease;
-  margin-top: .5rem;
+  margin-top: 1rem;
+  font-size: 1.25rem;
 }
 
 .navigation .menu li a {
@@ -81,7 +73,7 @@ header {
 body {
   padding: 8rem 4rem;
   margin: 0;
-  font-family: 'noto_sans', Georgia, 'Times New Roman', Times, serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  font-family: 'baloo_bhaijaan_2'; 
   font-size: 1rem;
   line-height: 1rem;
 }
@@ -126,5 +118,7 @@ Set the height to auto
 
 mpeg 
 H.264 
+
+375 x 667 
 
 */ 

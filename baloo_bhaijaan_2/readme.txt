@@ -1,28 +1,22 @@
-EB Garamond Variable Font
-=========================
+Baloo Bhaijaan 2 Variable Font
+==============================
 
-This download contains EB Garamond as both variable fonts and static fonts.
+This download contains Baloo Bhaijaan 2 as both a variable font and static fonts.
 
-EB Garamond is a variable font with this axis:
+Baloo Bhaijaan 2 is a variable font with this axis:
   wght
 
-This means all the styles are contained in these files:
-  EBGaramond-VariableFont_wght.ttf
-  EBGaramond-Italic-VariableFont_wght.ttf
+This means all the styles are contained in a single file:
+  BalooBhaijaan2-VariableFont_wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for EB Garamond:
-  static/EBGaramond-Regular.ttf
-  static/EBGaramond-Medium.ttf
-  static/EBGaramond-SemiBold.ttf
-  static/EBGaramond-Bold.ttf
-  static/EBGaramond-ExtraBold.ttf
-  static/EBGaramond-Italic.ttf
-  static/EBGaramond-MediumItalic.ttf
-  static/EBGaramond-SemiBoldItalic.ttf
-  static/EBGaramond-BoldItalic.ttf
-  static/EBGaramond-ExtraBoldItalic.ttf
+in those cases you can use the static font files for Baloo Bhaijaan 2:
+  static/BalooBhaijaan2-Regular.ttf
+  static/BalooBhaijaan2-Medium.ttf
+  static/BalooBhaijaan2-SemiBold.ttf
+  static/BalooBhaijaan2-Bold.ttf
+  static/BalooBhaijaan2-ExtraBold.ttf
 
 Get started
 -----------
