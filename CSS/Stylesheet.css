@@ -28,20 +28,32 @@ header .navigation .ul {
   float: left;
   margin-left: 0;
   max-width: 100%;
-  padding: 0;
+  padding: 0; 
   width: 100%;
 }
+
+.logo-icon__image {
+  height: 100%;
+}
+
+.logo-icon__link {
+  display: block;
+  height: 70px;
+}
+
 
 .navigation {
      background-color: #ffffff;
      display: flex;
+     align-items: center;
      font-family: 'baloo_bhaijaan_2';
      font-size: 1.25rem;
      height: auto;
      justify-content: center;
      left: 0;
+     padding: 20px 0;
      position: fixed;
-     top: 1rem; 
+     top: 0; 
      width: 100%;
    }
 
@@ -50,14 +62,13 @@ header .navigation .ul {
   font-size: 1.25rem;
   justify-content: center;
   list-style: none;
-  margin-top: 1rem;
   padding: 0;
   transition: color .2s ease;
 }
 
 ul.menu {
   font-size: .75rem;
-  padding: .5rem;
+  padding: 5px .5rem 0 .5rem;
 }
 
 .navigation .menu li a {
@@ -82,12 +93,28 @@ ul.menu {
   padding: 0 1rem;
 }
 
+
+
 body {
   font-family: 'baloo_bhaijaan_2';
   font-size: 1rem;
   line-height: 1.25rem;
   margin: 0;
-  padding: 8rem 2rem;
+}
+
+.introduction {
+  margin-top: 40vh;
+}
+
+.wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.full-section {
+  /* height: calc(100vh - 80px); */
+  height: 100vh;
 }
 
 .hello {
